@@ -346,7 +346,7 @@ describe("War", function() {
       })
     })
 
-    describe("showStatus() method", function() {
+    describe("showStatus() method", function () {
       it("should be a function", function () {
         expect(typeof(war.showStatus)).toBe("function")
       })
